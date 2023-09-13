@@ -3,3 +3,7 @@ kind: Kustomization
 
 resources:
 - ../../base
+images:
+- name: alexmt/guestbook
+  newName: alexmt/guestbook
+  newTag: "0.1"
